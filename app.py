@@ -22,6 +22,8 @@ if api_key:
     # Initialize the OpenAI client
     client = OpenAI(api_key=api_key)
 
+    st.title("Multi-PDF Image Analyzing using Upstage OpenAI")
+
     # Textbox for updating the prompt
     prompt = st.text_input("Enter the prompt for image description", "What’s in this image?")
 
