@@ -7,15 +7,6 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-# # Streamlit app layout
-# st.title("Image Description using GPT-4o")
-# st.write("Upload an image and get a description using GPT-4o.")
-
-# # Textbox for updating OpenAI API key
-# api_key = st.text_input("Enter your OpenAI API key", type="password")
-# if not api_key:
-#     api_key = os.environ.get("OPENAI_API_KEY", "")
-
 api_key=os.environ["OPENAI_API_KEY"]
 
 if api_key:
